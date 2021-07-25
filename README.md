@@ -27,10 +27,10 @@ A motor driver is an integrated circuit chip which is usually used to control mo
 ```
 {
 void loop()
-  "digitalWrite": (13, HIGH);
-  "digitalWrite": (12, LOW);
-  "digitalWrite": (8, HIGH);
-  "digitalWrite": (7, LOW);
+  "digitalWrite": "(13, HIGH)";
+  "digitalWrite": "(12, LOW)";
+  "digitalWrite": "(8, HIGH)";
+  "digitalWrite": "(7, LOW)";
   }
  ```
 But, if you want it to rotate in both directions with a while in between, then you need to set a delay for number of millisecond then the direction of rotation changes to other side.
