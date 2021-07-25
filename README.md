@@ -30,6 +30,7 @@ void loop()
   digitalWrite(12, HIGH);
   digitalWrite(8, LOW);
   digitalWrite(7, HIGH);
+  }
 ```
  
  But, if you want it to rotate in both directions with a while in between, then you need to set a delay for number of millisecond then the direction of rotation changes to other side.
