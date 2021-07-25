@@ -9,6 +9,7 @@
 4. Wires.
 5. L293D H Bridge.
 6. Battery
+
 ![<img width="722" alt="126025503-9585c978-9fe4-44d1-a189-04eda20e7190" src="https://user-images.githubusercontent.com/86169417/126885653-e2a32cb5-9031-49c2-8584-6bd3707c5f98.png">]
 
 # What is L293D H Bridge?
