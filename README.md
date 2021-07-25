@@ -1,6 +1,6 @@
 # Controlling-DC-Motors-with-the-L293D-H-Bridge-and-Arduino
 # Pre requirement
-* Create an account in [TINKERCAD]
+* Create an account in [title](https://www.example.com)
 * Create a new Circui
 # Tools:
 1. Breadboard.
@@ -19,8 +19,6 @@ A motor driver is an integrated circuit chip which is usually used to control mo
 ### step4: Connect Output1&Output2 with DC Motor1, Output3&Output4 with DC Motor2.
  NOTE: DC Motor will rotating in clockwise direction and if you want to run DC motor in anticlockwise direction we need to some change in the code (Replace HIGH to LOW and vice versa). 
 ```
-// C++ code
-//
 void loop()
   digitalWrite(13, HIGH);
   digitalWrite(12, LOW);
@@ -29,3 +27,31 @@ void loop()
  ```
 But, if you want it to rotate in both directions with a while in between, then you need to set a delay for number of millisecond then the direction of rotation changes to other side.
  ```
+ // C++ code
+//
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(13, HIGH);
+  digitalWrite(12, LOW);
+  digitalWrite(8, HIGH);
+  digitalWrite(7, LOW);
+  delay(2000); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);
+  digitalWrite(12, HIGH);
+  digitalWrite(8, LOW);
+  digitalWrite(7, HIGH);
+  delay(2000); // Wait for 1000 millisecond(s)
+ 
+}
+
+ ```
+# Output Sample
+# Learning references:
