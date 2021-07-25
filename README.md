@@ -8,7 +8,7 @@
 3. DC Motors.
 4. Wires.
 5. L293D H Bridge.
-6. Battery
+6. Battery.
 
 <img width="722" alt="126025503-9585c978-9fe4-44d1-a189-04eda20e7190" src="https://user-images.githubusercontent.com/86169417/126885653-e2a32cb5-9031-49c2-8584-6bd3707c5f98.png">]
 
@@ -49,12 +49,12 @@ void loop()
   digitalWrite(12, LOW);
   digitalWrite(8, HIGH);
   digitalWrite(7, LOW);
-  delay(2000); // Wait for 1000 millisecond(s)
+  delay(2000); // Wait for 2000 millisecond(s)
   digitalWrite(13, LOW);
   digitalWrite(12, HIGH);
   digitalWrite(8, LOW);
   digitalWrite(7, HIGH);
-  delay(2000); // Wait for 1000 millisecond(s)
+  delay(2000); // Wait for 2000 millisecond(s)
  
 }
 ```
