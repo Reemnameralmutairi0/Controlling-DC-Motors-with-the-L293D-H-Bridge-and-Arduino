@@ -18,7 +18,6 @@ A motor driver is an integrated circuit chip which is usually used to control mo
 ![126024531-2352ce31-70c4-43a8-b05c-1f0a9c5078bd](https://user-images.githubusercontent.com/86169417/126885693-eda3444c-3c2e-4d5d-ba8b-328e36831b49.png)
 
 # Steps :
-## Steps :
 #### step1: Connect Enable1&2,Enable3&4 and power1 with (5v) pin on Arduino.
 #### step2: Connect input1 with 13 pin, input2 with 12, input3 with 8 pin pin, input4 with 7 pin on Arduino.
 #### step3: Ground pins (4,5,12,13) on L293D connected to GND pin on Arduino.
