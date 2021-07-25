@@ -49,12 +49,12 @@ void loop()
   digitalWrite(12, LOW);
   digitalWrite(8, HIGH);
   digitalWrite(7, LOW);
-  delay(1000); // Wait for 1000 millisecond(s)
+  delay(2000); // Wait for 1000 millisecond(s)
   digitalWrite(13, LOW);
   digitalWrite(12, HIGH);
   digitalWrite(8, LOW);
   digitalWrite(7, HIGH);
-  delay(1000); // Wait for 1000 millisecond(s)
+  delay(2000); // Wait for 1000 millisecond(s)
  
 }
 ```
