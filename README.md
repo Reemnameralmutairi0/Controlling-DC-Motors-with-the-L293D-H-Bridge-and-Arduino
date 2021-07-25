@@ -23,18 +23,18 @@ A motor driver is an integrated circuit chip which is usually used to control mo
 ### step3: Ground pins (4,5,12,13) on L293D connected to GND pin on Arduino.
 ### step4: Connect Output1&Output2 with DC Motor1, Output3&Output4 with DC Motor2.
  NOTE: DC Motor will rotating in clockwise direction and if you want to run DC motor in anticlockwise direction we need to some change in the code (Replace HIGH to LOW and vice versa). 
-```
+```c++
 void loop()
 {
   digitalWrite(13, LOW);
   digitalWrite(12, HIGH);
   digitalWrite(8, LOW);
   digitalWrite(7, HIGH);
-  }
-```
+ }
  
+```
  But, if you want it to rotate in both directions with a while in between, then you need to set a delay for number of millisecond then the direction of rotation changes to other side.
- ```
+ ```c++
 void setup()
 {
   pinMode(13, OUTPUT);
@@ -49,16 +49,15 @@ void loop()
   digitalWrite(12, LOW);
   digitalWrite(8, HIGH);
   digitalWrite(7, LOW);
-  delay(2000); // Wait for 1000 millisecond(s)
+  delay(1000); // Wait for 1000 millisecond(s)
   digitalWrite(13, LOW);
   digitalWrite(12, HIGH);
   digitalWrite(8, LOW);
   digitalWrite(7, HIGH);
-  delay(2000); // Wait for 1000 millisecond(s)
+  delay(1000); // Wait for 1000 millisecond(s)
  
 }
-
- ```
+```
 # Output Sample
 ![Daring Hillar (2)](https://user-images.githubusercontent.com/86169417/126885789-1774cd0a-1eb1-4e61-ac2e-5bf00c7379e2.png)
 
