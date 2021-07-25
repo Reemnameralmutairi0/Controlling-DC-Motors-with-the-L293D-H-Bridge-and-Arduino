@@ -35,8 +35,6 @@ void loop()
  
  But, if you want it to rotate in both directions with a while in between, then you need to set a delay for number of millisecond then the direction of rotation changes to other side.
  ```
- // C++ code
-//
 void setup()
 {
   pinMode(13, OUTPUT);
